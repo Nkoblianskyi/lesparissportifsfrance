@@ -11,7 +11,7 @@ export function AgeVerificationModal() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      const ageVerified = localStorage.getItem("ageVerified")
+      const ageVerified = localStorage.getItem("ageVerified-new-modal")
       if (!ageVerified || ageVerified !== "true") {
         setIsOpen(true)
       }
@@ -21,7 +21,7 @@ export function AgeVerificationModal() {
   }, [])
 
   const handleConfirmAge = () => {
-    localStorage.setItem("ageVerified", "true")
+    localStorage.setItem("ageVerified-new-modal", "true")
     setIsOpen(false)
   }
 
