@@ -113,7 +113,7 @@ export function Hero() {
             <div>
               <h3 className="font-bold mb-2">Conditions Générales</h3>
               <p className="text-sm">
-                Tous les sites de paris sportifs recommandés sur ParisSportifsLesFrance sont licenciés par l'ANJ
+                Tous les sites de paris sportifs recommandés sur LesParisSpotifsFrance sont licenciés par l'ANJ
                 (Autorité Nationale des Jeux) et respectent strictement la réglementation française en vigueur.
               </p>
             </div>

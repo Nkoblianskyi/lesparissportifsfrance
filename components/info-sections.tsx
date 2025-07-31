@@ -7,7 +7,7 @@ export function InfoSections() {
           <div className="bg-slate-800 p-8 text-white">
             <h3 className="text-3xl font-bold text-center mb-4">Notre Méthodologie d'Évaluation Complète</h3>
             <p className="text-slate-200 text-center max-w-4xl mx-auto text-lg leading-relaxed">
-              ParisSportifsLesFrance s'appuie sur une méthodologie rigoureuse et transparente développée par nos experts
+              LesParisSpotifsFrance s'appuie sur une méthodologie rigoureuse et transparente développée par nos experts
               pour analyser et comparer objectivement chaque plateforme de paris sportifs disponible sur le marché
               français. Notre processus d'évaluation garantit une analyse impartiale et détaillée de tous les aspects
               critiques qui influencent l'expérience utilisateur et la sécurité des parieurs.

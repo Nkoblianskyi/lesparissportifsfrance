@@ -203,12 +203,12 @@ export default function PolitiqueConfidentialitePage() {
                 données personnelles :
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Adresse électronique : privacy@lesparissportifsfrance.com</li>
+                <li>Adresse électronique : privacy@LesParisSpotifsFrance.com</li>
                 <li>Courrier postal : LesParisSpotifsFrance - Responsable Protection des Données</li>
               </ul>
               <p className="text-sm mt-4">
                 <strong>Délégué à la Protection des Données :</strong> Contactable à l'adresse
-                dpo@lesparissportifsfrance.com
+                dpo@LesParisSpotifsFrance.com
               </p>
             </div>
           </section>

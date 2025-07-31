@@ -9,14 +9,14 @@ import { Header } from "@/components/header"
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"] })
 
 export const metadata: Metadata = {
-  title: "ParisSportifsLesFrance - Guide Comparatif Sites Paris Sportifs Licenciés ANJ 2025",
+  title: "LesParisSpotifsFrance - Guide Comparatif Sites Paris Sportifs Licenciés ANJ 2025",
   description:
     "Guide comparatif des meilleurs sites de paris sportifs licenciés ANJ en France. Comparaison objective des bonus, cotes et services pour un jeu responsable. Contenu informatif 18+",
   keywords:
     "paris sportifs France, sites licenciés ANJ, comparaison bonus, cotes sportives, jeu responsable, guide paris sportifs",
-  authors: [{ name: "ParisSportifsLesFrance - Guide Comparatif" }],
-  creator: "ParisSportifsLesFrance",
-  publisher: "ParisSportifsLesFrance",
+  authors: [{ name: "LesParisSpotifsFrance - Guide Comparatif" }],
+  creator: "LesParisSpotifsFrance",
+  publisher: "LesParisSpotifsFrance",
   robots: {
     index: true,
     follow: true,
@@ -32,15 +32,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://parissportifslesfrance.com",
-    title: "ParisSportifsLesFrance - Guide Comparatif Paris Sportifs",
+    url: "https://LesParisSpotifsFrance.com",
+    title: "LesParisSpotifsFrance - Guide Comparatif Paris Sportifs",
     description:
       "Guide comparatif des meilleurs sites de paris sportifs licenciés ANJ. Contenu informatif pour un jeu responsable 18+",
-    siteName: "ParisSportifsLesFrance",
+    siteName: "LesParisSpotifsFrance",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ParisSportifsLesFrance - Guide Comparatif",
+    title: "LesParisSpotifsFrance - Guide Comparatif",
     description: "Guide comparatif sites paris sportifs licenciés ANJ. Jeu responsable 18+",
   },
   verification: {
@@ -147,7 +147,7 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
         {/* Liens canoniques et DNS */}
-        <link rel="canonical" href="https://parissportifslesfrance.com" />
+        <link rel="canonical" href="https://LesParisSpotifsFrance.com" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 

@@ -4,7 +4,7 @@ export default function AProposPage() {
   return (
     <>
       <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-8 text-center text-white">À Propos de ParisSportifsLesFrance</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-white">À Propos de LesParisSpotifsFrance</h1>
 
         <div className="max-w-4xl mx-auto space-y-8 bg-slate-900/90 backdrop-blur-sm rounded-lg p-8">
           <div className="text-center mb-8">
@@ -15,7 +15,7 @@ export default function AProposPage() {
             <h2 className="text-2xl font-bold mb-4 text-yellow-400">Notre Mission</h2>
             <div className="text-slate-300 leading-relaxed space-y-3">
               <p>
-                ParisSportifsLesFrance est un guide comparatif indépendant spécialisé dans l'évaluation des meilleurs
+                LesParisSpotifsFrance est un guide comparatif indépendant spécialisé dans l'évaluation des meilleurs
                 sites de paris sportifs licenciés ANJ en France. Notre mission est de fournir aux parieurs français des
                 informations objectives, transparentes et régulièrement mises à jour pour les aider à faire des choix
                 éclairés et responsables.
@@ -244,7 +244,7 @@ export default function AProposPage() {
 
           <div className="text-center mt-8 p-4 bg-blue-900/20 border border-blue-700/50 rounded-lg">
             <p className="text-blue-300 text-sm">
-              ParisSportifsLesFrance s'engage à maintenir les plus hauts standards d'évaluation pour garantir la
+              LesParisSpotifsFrance s'engage à maintenir les plus hauts standards d'évaluation pour garantir la
               sécurité et la satisfaction des parieurs français. Notre travail contribue à un environnement de jeu plus
               sûr et plus transparent.
             </p>

@@ -46,12 +46,9 @@ export function BettingSiteCard({ site, rank }: BettingSiteCardProps) {
     // Validation supplémentaire du lien
     if (!site.url || !site.url.startsWith("https://")) {
       e.preventDefault()
-      console.warn("Lien non sécurisé bloqué:", site.url)
       return
     }
 
-    // Log pour monitoring
-    console.log("Redirection vers site licencié ANJ:", site.name, site.url)
   }
 
   return (

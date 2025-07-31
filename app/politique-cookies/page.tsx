@@ -317,7 +317,7 @@ export default function PolitiqueCookiesPage() {
             <div className="text-slate-700 space-y-3">
               <p>Pour toute question concernant notre utilisation des cookies ou pour exercer vos droits :</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Adresse électronique : cookies@lesparissportifsfrance.com</li>
+                <li>Adresse électronique : cookies@LesParisSpotifsFrance.com</li>
                 <li>Objet du message : "Demande relative aux cookies"</li>
               </ul>
             </div>
