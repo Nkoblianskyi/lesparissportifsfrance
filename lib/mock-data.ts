@@ -38,7 +38,7 @@ export const bettingSites: BettingSite[] = [
   {
     id: 2,
     name: "Feeling Bet",
-    logo: "/feelingbet.png",
+    logo: "/feeling.png",
     bonus: "50€ de Freebets sur ton 1er Pari s'il est Perdant",
     url: "https://feelingbet.fr/",
     rating: 9.3,
