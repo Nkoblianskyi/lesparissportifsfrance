@@ -117,8 +117,7 @@ export function Footer() {
                 },
                 { href: "https://www.gambleaware.org", src: "/gamble.webp", alt: "GambleAware" },
                 { href: "https://www.gamcare.org.uk", src: "/gamecare.svg", alt: "GamCare" },
-                { href: "https://www.sos-joueurs.org", src: "/logo-sos-joueurs.svg", alt: "SOS Joueurs" },
-                { src: "/icn-ssl.svg", alt: "SSL" },
+                { href: "https://www.sos-joueurs.org", src: "/logo-sos-joueurs.svg", alt: "SOS Joueurs" },  
               ].map((org, index) => (
                 <div key={index} className=" rounded p-2 hover:bg-gray-100 transition-colors">
                   {org.href ? (
