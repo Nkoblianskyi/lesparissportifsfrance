@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    --primary: 0 85 164;
+    --primary-foreground: 255 255 255;
+    --secondary: 239 65 53;
+    --secondary-foreground: 255 255 255;
+    --muted: 248 250 252;
+    --muted-foreground: 100 116 139;
+    --accent: 0 85 164;
+    --accent-foreground: 255 255 255;
+    --destructive: 239 65 53;
+    --destructive-foreground: 255 255 255;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 0 85 164;
+    --chart-1: 0 85 164;
+    --chart-2: 239 65 53;
+    --chart-3: 255 255 255;
+    --chart-4: 15 23 42;
+    --chart-5: 100 116 139;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-white text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
+
+/* French flag gradient utility */
+.french-flag-bg {
+  background: linear-gradient(
+    90deg,
+    #0055a4 0%,
+    #0055a4 33.33%,
+    #ffffff 33.33%,
+    #ffffff 66.66%,
+    #ef4135 66.66%,
+    #ef4135 100%
+  );
+}
+
+.french-blue {
+  color: #0055a4;
+}
+
+.french-red {
+  color: #ef4135;
+}
+
+.bg-french-blue {
+  background-color: #0055a4;
+}
+
+.bg-french-red {
+  background-color: #ef4135;
+}
+
+.border-french-blue {
+  border-color: #0055a4;
+}
+
+.border-french-red {
+  border-color: #ef4135;
+}
