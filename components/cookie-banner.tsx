@@ -87,15 +87,6 @@ export function CookieBanner() {
               {/* Right side - Buttons */}
               <div className="flex items-center gap-2 flex-shrink-0">
                 <Button
-                  onClick={() => setShowDetails(true)}
-                  variant="ghost"
-                  size="sm"
-                  className="text-white hover:bg-slate-700 text-xs px-3 py-1 h-8"
-                >
-                  <Settings className="w-3 h-3 mr-1" />
-                  Options
-                </Button>
-                <Button
                   onClick={handleRejectAll}
                   variant="ghost"
                   size="sm"
@@ -123,7 +114,6 @@ export function CookieBanner() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-6">
                 <h3 className="text-xl font-bold text-slate-800 flex items-center gap-2">
-                  <Cookie className="w-5 h-5 text-amber-600" />
                   Préférences des Cookies
                 </h3>
                 <Button
