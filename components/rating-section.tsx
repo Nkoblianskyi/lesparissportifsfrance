@@ -6,14 +6,14 @@ export function RatingSection() {
     <section
       className="w-full py-12 relative"
       style={{
-        backgroundImage: `url('/placeholder.svg?height=800&width=1200')`,
+        backgroundImage: `url('/bg-10.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
       {/* Overlay для покращення читабельності */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-blue-50/80 to-red-50/85 backdrop-blur-sm"></div>
+      <div className="absolute inset-0"></div>
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="space-y-6">
